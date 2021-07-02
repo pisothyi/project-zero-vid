@@ -1,0 +1,54 @@
+.qr-reader-container {
+  width: 30%;
+  height: auto;
+  margin: auto;
+}
+
+.btn-group-container {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.btn-group-container > Button {
+  margin-right: 30px;
+}
+
+.my-qr-container {
+  width: inherit;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-container {
+  padding: 20px;
+  background-color: #ffffff;
+  width: inherit;
+  min-height: 500px;
+}
+
+.title {
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  #qr-location-tabs-tab-scanQr,
+  #qr-location-tabs-tab-locationLogs,
+  #qr-location-tabs-tab-previousLocation {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .qr-reader-container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+}

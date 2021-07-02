@@ -1,0 +1,34 @@
+.body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #f6f9ff;
+}
+
+.overall-container {
+  width: 100%;
+  height: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.col {
+  padding: 0 !important;
+  width: 100%;
+  height: 100vh;
+}
+
+.col-left {
+  position: sticky !important;
+}
+
+.col-right {
+  padding-left: 14px !important;
+  padding-right: 14px !important;
+  overflow-y: auto;
+}

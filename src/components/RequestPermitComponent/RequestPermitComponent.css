@@ -1,0 +1,21 @@
+.title {
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.permit-tabpane {
+  height: auto;
+  background-color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .request-permit-tab {
+    width: 40px;
+  }
+
+  #permit-tabs-tab-expired-permits,
+  #permit-tabs-tab-active-permits,
+  #permit-tabs-tab-requested-permits {
+    width: 100px !important;
+  }
+}

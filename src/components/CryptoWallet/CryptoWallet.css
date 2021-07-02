@@ -1,0 +1,37 @@
+.title {
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.crypto-wallet-container {
+  width: 100%;
+  margin: 0;
+}
+.crypto-line-graph-container {
+  width: 100%;
+  height: 600px;
+}
+
+.wallet-balance-container {
+  font-size: 18px;
+  text-align: center;
+}
+
+.pie-chart-container {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../assets/PieChart.png");
+}
+
+.crypto-chart-container {
+  width: inherit;
+  height: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  .crypto-line-graph-container {
+    width: 100%;
+    height: 300px;
+  }
+}

@@ -1,0 +1,85 @@
+.topBar-container {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  align-items: center;
+  z-index: 1;
+}
+
+.announcement-container {
+  text-align: left;
+  flex-grow: 1;
+}
+
+.top-right-userInfo-container {
+  width: 22%;
+  padding-top: 10px;
+  float: inline-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.user-image-container {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.user-image-container > img {
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.user-email {
+  padding: 0;
+  text-align: left;
+}
+
+.emergency-lines-toast {
+  position: absolute !important;
+  right: 20px;
+  top: 80px;
+  width: 500px;
+}
+
+.emergency-lines-text {
+  font-size: 22px;
+}
+
+.emergency-call-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.emergency-line {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .top-right-userInfo-container {
+    width: 22%;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .topBar-container {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 10px;
+    z-index: 1;
+  }
+}

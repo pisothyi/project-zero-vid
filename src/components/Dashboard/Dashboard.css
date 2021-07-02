@@ -1,0 +1,105 @@
+.dashboard-container {
+  width: inherit;
+  height: inherit;
+}
+
+.title {
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.covid19-overview-container {
+  width: inherit;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.covid19-stat-card {
+  background-color: #ffffff;
+  width: 210px;
+  height: 70px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.covid19-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.total-cases-icon {
+  background-image: url("../../assets/cambodia.png");
+}
+
+.infected-icon {
+  background-image: url("../../assets/coronavirus.png");
+}
+
+.recovered-icon {
+  background-image: url("../../assets/laptop.png");
+}
+
+.death-icon {
+  background-image: url("../../assets/grave.png");
+}
+
+.overall-data-container {
+  text-align: left;
+}
+
+.today-data-container {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.covid19-map-container {
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.country-search-bar {
+  width: 300px;
+  right: 60px;
+  top: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.covid19-stat-card-responsive {
+  background-color: #ffffff;
+  width: 210px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .country-search-bar {
+    width: 260px;
+    top: 56px;
+    position: absolute;
+    z-index: 1;
+  }
+  .title {
+    margin-top: 20px;
+  }
+}

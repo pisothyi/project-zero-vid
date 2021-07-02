@@ -1,0 +1,15 @@
+.title {
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.tab-container {
+  padding: 20px;
+  background-color: #ffffff;
+  width: inherit;
+  min-height: 500px;
+}
+
+.carousel-control-next-icon {
+  color: #000000;
+}

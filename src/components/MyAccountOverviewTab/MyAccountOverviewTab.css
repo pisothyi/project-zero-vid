@@ -1,0 +1,196 @@
+.overview-tab-container {
+  width: inherit;
+  height: inherit;
+}
+
+.health-related-container {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.health-related-card {
+  width: 250px;
+  height: 70px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f6f9ff;
+}
+
+.health-related-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.health-related-icon {
+  margin-right: 10px;
+}
+
+.health-related-icon {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+}
+
+.health-icon {
+  background-image: url("../../assets/heartbeat.png");
+}
+
+.vaccinated-icon {
+  background-image: url("../../assets/injection.png");
+}
+
+.qr-icon {
+  background-image: url("../../assets/qr-scan.png");
+}
+
+.health-related-text {
+  font-size: 18px;
+}
+
+.health-related-data {
+  font-size: 18px;
+}
+
+.overview-tab-second-container {
+  width: inherit;
+  height: inherit;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.overview-tab-location-list-container {
+  width: 58%;
+  height: 300px;
+  background-color: #f6f9ff;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 16px;
+}
+
+.overview-tab-family-health-container {
+  width: 40%;
+  height: 300px;
+  border-radius: 8px;
+  background-color: #f6f9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overview-tab-location-list {
+  width: 100%;
+  height: 220px;
+  overflow-y: auto;
+}
+
+.overview-tab-location-list-item {
+  width: 100%;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px;
+}
+
+.location-name-item {
+  margin-left: 10px;
+}
+
+.family-health-carousel {
+  width: 100%;
+  height: inherit;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overview-tab-family-health-carousel-card {
+  width: 80%;
+  height: inherit;
+  background-color: #000000;
+  border-radius: 6px;
+}
+
+.carousel-control-next-icon {
+  color: #000000;
+}
+
+.carousel-control-icon {
+  color: #0275d8;
+}
+
+.family-member-profile {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../assets/default_user.jpg");
+}
+
+.family-health-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .health-related-container {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .health-related-card {
+    border-radius: 0;
+  }
+
+  .overview-tab-second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .overview-tab-location-list-container {
+    width: 100%;
+    height: 300px;
+    background-color: #f6f9ff;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 16px;
+  }
+
+  .overview-tab-family-health-container {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 40px;
+    background-color: #f6f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overview-tab-location-list-item {
+    height: 60px;
+  }
+}

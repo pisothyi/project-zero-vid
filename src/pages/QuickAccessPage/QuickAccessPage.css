@@ -1,0 +1,22 @@
+.quick-access-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f6f9ff;
+}
+
+.quick-access-logo {
+  width: 100px;
+  height: 100px;
+  background-image: url("../../assets/logo-1000x1000.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.quick-access-link-container {
+  font-size: 20px;
+}

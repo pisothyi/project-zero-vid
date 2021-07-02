@@ -1,0 +1,51 @@
+.title {
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.settings-panel-container {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.profile-picture-container {
+  width: inherit;
+  justify-content: center;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../assets/default_user.jpg");
+  margin-right: 20px;
+}
+
+.gender-dropdown {
+  padding-top: 12px;
+}
+
+.btn-margin-top {
+  margin-top: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-picture-container {
+    justify-content: center;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-picture {
+    margin-bottom: 14px;
+  }
+}
